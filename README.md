@@ -27,7 +27,7 @@ Before moving to physical hardware deployment, I utilize cloud-based simulation 
 * **Proximity Adaptive Motor with Material Sorting:** Designed an automated conveyor sorting cell that differentiates between metallic and non-metallic objects, driving adaptive motor speeds governed by Set-Reset interlocking logic.
 * **Closed-Loop Automated Cooling System:** Integrated a TMP36 temperature sensor, an H-Bridge driver, and a DC fan to simulate a variable-frequency drive. The fan speed is proportionally mapped (0-100%) based on environmental thermal thresholds and logged via an I2C LCD screen.
 * **Industrial Safety Cells (Fire & Gas Detection):** Configured standalone edge-alarm nodes utilizing specialized analog threshold logic to trigger immediate acoustic/visual alerts upon detecting hazardous combustion or gas levels.
-* * **Discrete Multi-Stage Analog Cooling Controller:** Engineered a hardwired, controllerless 3-level automatic fan speed driver using an array of Operational Amplifiers as voltage comparators, an NTC thermistor network for thermal tracking, Diodes, and bipolar junction transistors (BJTs) to sequentially step current loads based on raw analog voltage thresholds.
+* **Discrete Multi-Stage Analog Cooling Controller:** Engineered a hardwired, controllerless 3-level automatic fan speed driver using an array of Operational Amplifiers as voltage comparators, an NTC thermistor network for thermal tracking, Diodes, and bipolar junction transistors (BJTs) to sequentially step current loads based on raw analog voltage thresholds.
 
 
 ### 2. Interrupt-Driven & Digital Logic Arrays
